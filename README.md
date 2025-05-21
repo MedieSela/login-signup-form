@@ -43,4 +43,3 @@ These are visual icons and are currently not connected to actual OAuth login.
 **Medie Sela**  
 📧 dinaasela2@gmail.com  
 📞 +355 676957434  
-🔗 GitHub: [your GitHub profile link here]
