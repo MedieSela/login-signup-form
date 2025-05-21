@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Signup form</title>
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <div class="container">
+        
+        <form method="post" class="login-form" action="server.php" enctype="multipart/form-data">
+        <h1>Signup</h1>
+        <input type="text" name="emer" placeholder="Name" required><br><br>
+        <input type="text" name="mbiemer" placeholder="Surname" required><br><br>
+        <input type="number" name="mosha" placeholder="Age" required><br><br>
+         <input type="email" name="email" placeholder="Email" required><br><br>
+         <input type="password" name="password" placeholder=" Create password" required ><br><br>
+         <input type="password" name="newpassword" placeholder="Confirm password" required><br><br>
+    
+         <button type="submit" class="login-btn">Signup</button>
+         <p class="signup">Already have an account? <a href="login.html">Login</a></p>
+         <fieldset class="divider">
+         <legend>Or</legend>
+         </fieldset>
+         <a href="https://www.facebook.com/login.php/"> <button type="button" class="facebook"><img src="Facebook-logo.png" alt="facebook" class="ikon">
+         Login with Facebook</button><br></a>
+         <a href="https://accounts.google.com/"><button type="button" class="Google"><img src="Google__G__logo.svg.png" alt="Google" class="ikon">
+        Login with Google</button></a>
+        </form>
+        </div>
+    </body>
+</html>

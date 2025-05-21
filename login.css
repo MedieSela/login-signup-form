@@ -1,0 +1,111 @@
+body{
+    margin: 50px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.container{
+    background-color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 350px;
+    
+}
+.login-form .forgot{
+    text-decoration: none;
+    
+}
+.signup a{
+    text-decoration: none;
+}
+.login-form h1{
+    margin-top: 10px;
+}
+.login-form input[type="email"],
+.login-form input[type="password"],
+.login-form input[type="text"],
+.login-form input[type="number"]{
+    width: 100%;
+    padding: 12px ;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.login-form .login-btn{
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(83, 83, 238);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+ .facebook{
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(71, 71, 204);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    gap: 10px;
+    
+    
+    
+}
+.login-form a{
+    text-decoration: none;
+}
+.Google{
+    width: 100%;
+    padding: 12px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #726e6e;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    gap: 10px;
+}
+    
+.ikon{
+width: 20px;
+height: 20px;
+position: absolute;
+left: 10px;
+}
+.divider{
+    border: none;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    margin: 20px;
+}
+.divider legend{
+    padding: 10px;
+    color: #b6b2b2;
+    font-size: 20px;
+}
+
+.facebook:hover {
+    background-color: #15223588;
+}
+.Google:hover{
+    background-color: rgba(128, 128, 128, 0.377);
+}
+.login-btn:hover{
+    background-color: #15223588;
+    transform: scale(1.1);
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LogIn form</title>
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <div class="container">
+        
+        <form method="post" class="login-form" action="server.php" enctype="multipart/form-data">
+        <h1>Login</h1>
+         <input type="email" name="email" placeholder="Email" required><br><br>
+         <input type="password" name="password" placeholder="Password" required ><br><br>
+         <a href="#" class="forgot">Forgot password?</a><br><br>
+         <button type="submit" class="login-btn">Login</button>
+         <p class="signup">Don't have an account? <a href="signup.html">Signup</a></p>
+         <fieldset class="divider">
+         <legend>Or</legend>
+         </fieldset>
+         <a href="https://www.facebook.com/login.php/"> <button type="button" class="facebook"><img src="Facebook-logo.png" alt="facebook" class="ikon">
+         Login with Facebook</button><br></a>
+         <a href="https://accounts.google.com/"><button type="button" class="Google"><img src="Google__G__logo.svg.png" alt="Google" class="ikon">
+        Login with Google</button></a>
+        </form>
+        </div>
+    </body>
+</html>
